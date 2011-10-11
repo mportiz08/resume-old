@@ -7,9 +7,9 @@ mportiz08[at]gmail.com
 
 ### Development
 
-I'm an experienced web developer and have a passion for the Ruby and Javascript programming languages and the open source community in general. My favorite tools to work with are Ruby on Rails, Sinatra, and Backbone.js.
+I'm an experienced web developer and have a passion for the Ruby and Javascript programming languages and the open source community in general. My favorite frameworks to work with are Ruby on Rails, Sinatra, and Backbone.js.
 
-Other programming languages that I'm comfortable with include:
+Here's some other languages I'm comfortable with:
 
   * c
   * java
@@ -22,11 +22,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, nisi vit
 
 ### Open Source
 
-Fusce tempor malesuada tortor ut sagittis. Integer sagittis dui et odio ultrices a rhoncus felis tincidunt. Sed posuere nulla in urna tempus quis ultrices quam vestibulum. Pellentesque malesuada, dui quis adipiscing convallis, tellus nisl laoreet libero, quis eleifend libero nisl ac augue.
+[see my profile on github](http://github.com/mportiz08)
 
 ### Commercial
 
-Proin feugiat lacinia lacus vitae luctus. Aliquam erat volutpat. Praesent nisi massa, dictum nec lacinia eget, congue ac libero. Maecenas ac nulla augue, tristique auctor purus. Quisque adipiscing porta imperdiet.
+[see on site](http://resume.marcusortiz.com/#commercial)
 
 ## Education
 
