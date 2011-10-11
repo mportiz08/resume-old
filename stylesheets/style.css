@@ -52,6 +52,35 @@ h4 { font-size: 1em; }
   visibility: hidden;
 }
 
+.screens {
+  padding: 15px;
+}
+
+.screens .screen {
+  background: #000;
+  border: 3px solid #222;
+  border-radius: 5px;
+  height: 275px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.screens ul {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.screens ul li {
+  background: #000;
+  border: 2px solid #222;
+  border-radius: 3px;
+  display: inline-block;
+  height: 70px;
+  margin: 10px 5px 10px 0;
+  padding: 0;
+  width: 128px;
+}
+
 a.ruby { color: #c61a1a; }
 a.coffeescript { color: #ff5600; }
 a.rails { color: #981a21; }
