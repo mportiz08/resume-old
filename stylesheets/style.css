@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+html, body {
+  background: #eee;
+  color: #222;
+  font-family: "Helvetica Nueue", Helvetica, arial, sans-serif;
+  height: 100%;
+}
+
+p {
+  line-height: 1.5em;
+  padding: 10px;
+}
+
+ul {
+  padding: 0 10px;
+}
+
+ul li {
+  list-style-type: disc;
+  margin: 0 25px;
+  padding: 5px 0;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+img.me {
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+a, a:visited, a:active, a:hover { color: #000; }
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  padding: 5px 0;
+}
+
+h1 { font-size: 5em; }
+h2 { font-size: 3em; padding: 10px 0; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1em; }
+
+#container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#container .border {
+  background: -webkit-linear-gradient(left, #eee, #ccc, #333, #ccc, #eee);
+  height: 2px;
+  margin: 20px 0;
+}
+
+#banner {
+  font-size: 0.9em;
+  padding: 5px 0;
+}
+
+#top-left {
+  width: 400px;
+}
+
+#top-right h3 {
+  font-weight: normal;
+}
