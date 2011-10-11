@@ -22,6 +22,18 @@ ul li {
   padding: 5px 0;
 }
 
+a, a:visited, a:active, a:hover { color: #000; }
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  padding: 5px 0;
+}
+
+h1 { font-size: 5em; }
+h2 { font-size: 3em; padding: 10px 0; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1em; }
+
 .clear {
   clear: both;
   height: 0;
@@ -36,22 +48,18 @@ ul li {
   float: right;
 }
 
+a.ruby { color: #c61a1a; }
+a.coffeescript { color: #ff5600; }
+a.rails { color: #981a21; }
+a.sinatra { color: #56534f; }
+a.backbone { color: #444; }
+a.red-staple { color: #910808; }
+a.calpoly { color: #1C4102; }
+
 img.me {
   border: 2px solid #333;
   border-radius: 5px;
 }
-
-a, a:visited, a:active, a:hover { color: #000; }
-
-h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
-  padding: 5px 0;
-}
-
-h1 { font-size: 5em; }
-h2 { font-size: 3em; padding: 10px 0; }
-h3 { font-size: 1.5em; }
-h4 { font-size: 1em; }
 
 #container {
   margin: 0 auto;
