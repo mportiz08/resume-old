@@ -7,6 +7,16 @@
   <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" media="screen">
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="stylesheets/facebox.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/facebox.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $.facebox.settings.closeImage = 'images/closelabel.png';
+      $.facebox.settings.loadingImage = 'images/loading.gif';
+      $('a[rel*=facebox]').facebox();
+    });
+  </script>
 </head>
 <body>
   <div id="container">
@@ -42,10 +52,10 @@
         Here's some examples:
       </p>
       <div class="screens">
-        <div class="screen"><img src="images/noir.jpg" width="500" height="275" alt="screenshot of noir website design concept" /></div>
+        <div class="screen"><a href="images/noir.jpg" rel="facebox"><img src="images/noir.jpg" width="500" height="275" alt="screenshot of noir website design concept" /></a></div>
         <ul>
-          <li><img src="images/simplemath-site.jpg" width="128" height="70" alt="simple math website screenshot" /></li>
-          <li><img src="images/simplemath-app.jpg" width="128" height="70" alt="simple math ipad app screenshot" /></li>
+          <li><a href="images/simplemath-site.jpg" rel="facebox"><img src="images/simplemath-site.jpg" width="128" height="70" alt="simple math website screenshot" /></a></li>
+          <li><a href="images/simplemath-app.jpg" rel="facebox"><img src="images/simplemath-app.jpg" width="128" height="70" alt="simple math ipad app screenshot" /></a></li>
         </ul>
       </div>
       <h1 id="portfolio">Portfolio</h1>
@@ -61,12 +71,12 @@
         Here's some screenshots of <a href="http://books.red-staple.com/" class="red-staple">their webapp</a> for converting books in .doc format to a tablet-ready .epub format in which I was the sole developer/designer.
       </p>
       <div class="screens">
-        <div class="screen"><img src="images/books-edit.jpg" width="500" height="275" alt="books.red-staple.com screenshot" /></div>
+        <div class="screen"><a href="images/books-edit.jpg" rel="facebox"><img src="images/books-edit.jpg" width="500" height="275" alt="books.red-staple.com screenshot" /></a></div>
         <ul>
-          <li><img src="images/books-edit_document.jpg" width="128" height="70" alt="books.red-staple.com screenshot" /></li>
-          <li><img src="images/books-organize.jpg" width="128" height="70" alt="books.red-staple.com screenshot" /></li>
-          <li><img src="images/books-purchase.jpg" width="128" height="70" alt="books.red-staple.com screenshot" /></li>
-          <li><img src="images/books-validated.jpg" width="128" height="70" alt="books.red-staple.com screenshot" /></li>
+          <li><a href="images/books-edit_document.jpg" rel="facebox"><img src="images/books-edit_document.jpg" width="128" height="70" alt="books.red-staple.com screenshot" /></a></li>
+          <li><a href="images/books-organize.jpg" rel="facebox"><img src="images/books-organize.jpg" width="128" height="70" alt="books.red-staple.com screenshot" /></a></li>
+          <li><a href="images/books-purchase.jpg" rel="facebox"><img src="images/books-purchase.jpg" width="128" height="70" alt="books.red-staple.com screenshot" /></a></li>
+          <li><a href="images/books-validated.jpg" rel="facebox"><img src="images/books-validated.jpg" width="128" height="70" alt="books.red-staple.com screenshot" /></a></li>
         </ul>
       </div>
       <h1 id="education">Education</h1>
