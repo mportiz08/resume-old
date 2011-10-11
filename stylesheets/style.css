@@ -26,11 +26,11 @@ a, a:visited, a:active, a:hover { color: #000; }
 
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
-  padding: 5px 0;
+  padding: 15px 0;
 }
 
 h1 { font-size: 5em; }
-h2 { font-size: 3em; padding: 10px 0; }
+h2 { color: #333; font-size: 3em; }
 h3 { font-size: 1.5em; }
 h4 { font-size: 1em; }
 
@@ -67,7 +67,7 @@ img.me {
 }
 
 #container .border {
-  background: -webkit-linear-gradient(left, #eee, #ccc, #333, #ccc, #eee);
+  background: -webkit-linear-gradient(left, #eee, #ccc, #eee);
   height: 2px;
   margin: 20px 0;
 }
@@ -77,10 +77,23 @@ img.me {
   padding: 5px 0;
 }
 
+#banner h1 {
+  font-size: 6em;
+}
+
+#banner .pic {
+  padding: 15px 0;
+}
+
 #top-left {
-  width: 400px;
+  width: 450px;
+}
+
+#top-right {
+  padding: 15px 0;
 }
 
 #top-right h3 {
   font-weight: normal;
+  padding: 5px 0;
 }
