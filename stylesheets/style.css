@@ -99,7 +99,7 @@ img.me {
   border: 1px solid #ccc;
   margin: 10px auto;
   padding: 0 30px;
-  width: 637px;
+  width: 720px;
 }
 
 #container .border {
@@ -115,6 +115,7 @@ img.me {
 
 #banner h1 {
   font-size: 86px;
+  padding-left: 15px;
 }
 
 #banner .pic {
@@ -122,7 +123,7 @@ img.me {
 }
 
 #top-left {
-  width: 450px;
+  width: 515px;
 }
 
 #top-right {
